@@ -1,2 +1,25 @@
+.holder {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
-/* Your CSS Code here. */
+.item {
+  flex-basis: 18%;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.item1 {
+  order: 2;
+}
+
+.item2 {
+  order: 3;
+}
+
+.item3 {
+  order: 1;
+}
